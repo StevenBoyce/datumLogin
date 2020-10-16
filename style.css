@@ -1,16 +1,21 @@
 .container {
   display: flex;
+  height: 100vh;
 }
 
 .container .graphic {
   flex: 1.2;
-  background: "linear-gradient(173.18deg, #338ee1 0%, #024784 98.9%);";
+  background: linear-gradient(173.18deg, #338ee1 0%, #024784 98.9%);
 }
 
 .container .formLeft {
   padding: 20px;
 }
 
+.container .formLeft .topBar {
+  display: flex;
+}
+
 .container .formLeft h1 {
-  padding: 30px 20px;
+  padding: 30px 0 20px;
 }
