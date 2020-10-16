@@ -1,20 +1,16 @@
-h1 {
-  color: blue;
-  text-align: center;
+.container {
+  display: flex;
 }
-.intro h2 {
-  text-align: center;
+
+.container .graphic {
+  flex: 1.2;
+  background: "linear-gradient(173.18deg, #338ee1 0%, #024784 98.9%);";
 }
-.entry {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+
+.container .formLeft {
+  padding: 20px;
 }
-.divider h2 {
-  text-align: center;
-}
-.create {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+
+.container .formLeft h1 {
+  padding: 30px 20px;
 }
