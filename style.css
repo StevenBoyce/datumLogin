@@ -24,8 +24,7 @@ body {
   padding: 30px 0 20px;
 }
 h1 {
-  color: blue;
-  text-align: center;
+  text-align: left;
 }
 .intro h2 {
   text-align: center;
@@ -45,6 +44,20 @@ h1 {
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-color: gray;
+  padding: 20px 0;
+}
+.entry .buttons {
+  display: flex;
+  justify-content: center;
+}
+.entry .buttons #next {
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  width: 30%;
+  outline: none;
+  cursor: pointer;
 }
 .intro {
   display: none;
