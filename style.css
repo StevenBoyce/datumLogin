@@ -31,7 +31,7 @@ h1 {
   text-align: center;
 }
 .entry {
-  width: 400px;
+  width: 100%;
 }
 .entry .entry-item {
   width: 100%;
@@ -71,10 +71,10 @@ input:focus {
   padding: 10px;
   margin-top: 10px;
   border-radius: 15px;
-  width: 70%;
+  width: 100%;
   outline: none;
   cursor: pointer;
-  background-color: #024784;
+  background-color: #328ee0;
   color: white;
 }
 .intro {
@@ -91,5 +91,6 @@ input:focus {
 }
 
 .create p {
+  width: 100%;
   justify-content: center;
 }
