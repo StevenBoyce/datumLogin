@@ -94,3 +94,7 @@ input:focus {
   width: 100%;
   justify-content: center;
 }
+.create p a {
+  padding: 0 10px;
+  color: #328ee0;
+}
