@@ -23,22 +23,23 @@ window.onload = function () {
     },
   ]);
   var currentPath = window.location.pathname;
+  console.log(currentPath);
   if (currentPath === "/") {
     view.innerHTML = "This is the login page";
   } else {
     var route = router.routes.filter(function (r) {
       return r.path === currentPath;
     })[0];
-    // switch (route) {
-    //   case "/sign-up":
-    //     view.innerHTML = "Sign Up";
-    //     break;
-    //   case "/reset-password":
-    //     view.innerHTML = "Reset Password";
-    //     break;
-    //   default:
-    //     view.innerHTML = "No Page Exists";
-    //     break;
-    // }
+    switch (route) {
+      case "/sign-up":
+        view.innerHTML = "Sign Up";
+        break;
+      case "/reset-password":
+        view.innerHTML = "Reset Password";
+        break;
+      default:
+        view.innerHTML = "No Page Exists";
+        break;
+    }
   }
 };
