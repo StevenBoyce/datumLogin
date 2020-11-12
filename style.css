@@ -1,3 +1,6 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
 body {
   margin: 0;
 }
@@ -66,12 +69,16 @@ input:focus {
   border: none;
   padding: 10px;
   margin-top: 10px;
-  border-radius: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 10px;
   width: 100%;
   outline: none;
   cursor: pointer;
   background-color: #328ee0;
   color: white;
+}
+.entry .buttons #next:after {
+  content: "Log In";
 }
 .intro {
   display: none;
