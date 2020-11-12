@@ -1,4 +1,5 @@
 window.onload = function () {
+  console.log("hello");
   var Router = function (name, routes) {
     return {
       name,
