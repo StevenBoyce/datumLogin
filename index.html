@@ -10,10 +10,12 @@
   </head>
   <script>
     console.log("hello");
-    window.onload = function (name, routes) {
-      return {
-        name,
-        routes,
+    window.onload = function () {
+      var Router = function (name, routes) {
+        return {
+          name,
+          routes,
+        };
       };
 
       var router = new Router("router", [
