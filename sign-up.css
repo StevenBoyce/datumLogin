@@ -55,7 +55,7 @@ a {
   cursor: pointer;
   background-color: #328ee0;
   color: white;
-  box-shadow: 5px 10px;
+  box-shadow: 1px 2px 10px #8888;
 }
 
 #attributeList li .attrEntry label {
@@ -85,10 +85,10 @@ a {
   background-color: #328ee0;
   color: white;
   width: 150px;
-  box-shadow: 5px 10px;
+  box-shadow: 1px 2px 10px #8888;
 }
 .buttons button:disabled {
-  box-shadow: 5px 10px;
+  box-shadow: 1px 2px 10px #8888;
   font-size: 20px;
   border: none;
   padding: 10px;
