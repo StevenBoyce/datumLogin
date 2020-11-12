@@ -29,5 +29,16 @@ window.onload = function () {
     var route = router.routes.filter(function (r) {
       return r.path === currentPath;
     })[0];
+    // switch (route) {
+    //   case "/sign-up":
+    //     view.innerHTML = "Sign Up";
+    //     break;
+    //   case "/reset-password":
+    //     view.innerHTML = "Reset Password";
+    //     break;
+    //   default:
+    //     view.innerHTML = "No Page Exists";
+    //     break;
+    // }
   }
 };
