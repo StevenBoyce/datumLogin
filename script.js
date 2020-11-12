@@ -7,6 +7,7 @@ window.onload = function () {
   };
 
   var view = document.getElementById("view");
+  console.log(document);
 
   var router = new Router("router", [
     {
