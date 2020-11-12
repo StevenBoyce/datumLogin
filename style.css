@@ -55,7 +55,6 @@ h1 {
 }
 input:focus {
   background-color: transparent;
-  border: none;
   outline: none;
 }
 .entry .buttons {
