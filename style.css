@@ -56,7 +56,7 @@ h1 {
 input:focus {
   background-color: transparent;
   border: none;
-  height: 20px;
+  /* height: 20px;
   width: 160px;
   color: #ccc; */
 }
