@@ -77,15 +77,15 @@ input:focus {
   background-color: #328ee0;
   color: white;
 }
-/* .entry .buttons #next {
+.entry .buttons #next {
   font-size: 0px;
 }
 .entry .buttons #next:before,
 .entry .buttons #next:after {
   font-size: 16px;
-} */
+}
 .entry .buttons #next:before {
-  display: none;
+  content: "Log In";
 }
 .entry .buttons #next:after {
   content: "Log In";
