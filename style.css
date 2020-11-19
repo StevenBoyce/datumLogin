@@ -41,10 +41,10 @@ h1 {
   display: flex;
   flex-direction: column;
   padding: 20px 0;
-  font-size: 22px;
+  font-size: 18px;
 }
 .entry .entry-item a {
-  font-size: 16px;
+  font-size: 14px;
   color: #328ee0;
 }
 
@@ -54,7 +54,7 @@ h1 {
   border-left-style: hidden;
   border-bottom-color: gray;
   margin: 20px 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 input:focus {
   background-color: transparent;
@@ -86,7 +86,6 @@ input:focus {
 }
 .entry .buttons #next:before {
   content: "Log In";
-  font-family: serif;
 }
 .intro {
   display: none;
@@ -108,8 +107,29 @@ input:focus {
 }
 .create p a {
   padding: 0 10px;
-  color: #328ee0;
+  color: gray;
 }
 a #forgotPassword {
-  color: #328ee0;
+  font-size: 0px;
+}
+a #forgotPassword::before,
+a #forgotPassword::after {
+  font-size: 18;
+}
+a #forgotPassword {
+  content: "Forgot Your Log In? Sign Up Now";
+  color: gray;
+}
+.entry .buttons #next {
+  font-size: 0px;
+}
+.entry .buttons #next:before,
+.entry .buttons #next:after {
+  font-size: 20px;
+}
+.entry .buttons #next:before {
+  content: "Log In";
+}
+.divider {
+  display: none;
 }
