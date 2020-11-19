@@ -108,17 +108,17 @@ input:focus {
   padding: 0 10px;
   color: gray;
 }
-.entry .entry-item a {
+/* .entry .entry-item a {
   color: forestgreen;
-}
-.entry .entry-item a #forgotPassword {
+} */
+.entry .entry-item a {
   font-size: 0px;
 }
-.entry .entry-item a #forgotPassword::before,
-.entry .entry-item a #forgotPassword::after {
+.entry .entry-item a:before,
+.entry .entry-item a:after {
   font-size: 18;
 }
-.entry .entry-item a #forgotPassword {
+.entry .entry-item a {
   content: "Forgot Your Log In? Sign Up Now";
   color: gray;
   font-size: 14px;
