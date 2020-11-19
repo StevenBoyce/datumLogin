@@ -108,6 +108,9 @@ input:focus {
   padding: 0 10px;
   color: gray;
 }
+.entry .entry-item a {
+  color: forestgreen;
+}
 .entry .entry-item a #forgotPassword {
   font-size: 0px;
 }
