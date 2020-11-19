@@ -4,6 +4,9 @@
 body {
   margin: 0;
 }
+h2 {
+  display: none;
+}
 
 .container {
   display: flex;
@@ -42,10 +45,6 @@ h1 {
   flex-direction: column;
   padding: 20px 0;
   font-size: 18px;
-}
-.entry .entry-item a {
-  font-size: 14px;
-  color: #328ee0;
 }
 
 .entry .entry-item input {
@@ -109,14 +108,14 @@ input:focus {
   padding: 0 10px;
   color: gray;
 }
-a #forgotPassword {
+.entry .entryItem a #forgotPassword {
   font-size: 0px;
 }
-a #forgotPassword::before,
-a #forgotPassword::after {
+.entry .entryItem a #forgotPassword::before,
+.entry .entryItem a #forgotPassword::after {
   font-size: 18;
 }
-a #forgotPassword {
+.entry .entryItem a #forgotPassword {
   content: "Forgot Your Log In? Sign Up Now";
   color: gray;
 }
